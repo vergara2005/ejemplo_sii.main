@@ -4,7 +4,7 @@ const port = process.env.PORT || 3040;
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   const msg = 'Hola Feature cambio idioma de sii!\n'
-  const fr = 'Hola Feature cambio idioma de sii!\n'
+  const fr = 'Hola Feature cambio idioma de sii al frances!\n'
   res.end(msg + " " + fr + " " + eng);
 });
 
